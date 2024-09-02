@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Add custom CSS for background color, layout, and hover effects
+
 st.markdown(
     """
     <style>
@@ -59,7 +59,7 @@ st.markdown(
 # Title with hover effect
 st.markdown('<h1 class="hover-title">Gelu Marie L. Ursal</h1>', unsafe_allow_html=True)
 
-# Autobiography section
+
 st.write('''
 Hello! I'm Gelu Marie L. Ursal, a 4th-year BSIT student at Cebu Institute of Technology University. 
 I'm striving to establish a strong foundation in information technology, software and UI design, 
@@ -124,4 +124,4 @@ st.write(
 )
 
 # Centered thank you message with hover effect
-st.markdown('<div class="centered-message">Thank you for visiting my portfolio! 😊</div>', unsafe_allow_html=True)
+st.markdown('<div class="centered-message">Thank you for visiting!😊</div>', unsafe_allow_html=True)
