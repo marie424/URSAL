@@ -52,11 +52,6 @@ st.markdown(
         gap: 20px;
         margin-bottom: 20px;
     }
-    .about-me-container img {
-        border-radius: 50%; /* Round the image */
-        width: 100px; /* Set width of the image */
-        height: 100px; /* Set height of the image */
-    }
     </style>
     """,
     unsafe_allow_html=True
@@ -130,8 +125,6 @@ elif selection == "Contact Me":
     - **Location:** 307 – U Tres de Abril Street, Punta Princesa, Cebu City
     ''')
     
-    # Display image below the location
-    st.image("/workspaces/URSAL/.github/image/BIBBLE.jpg", caption="Gelu Marie L. Ursal")  # Path to your image
+  
 
-# Centered thank you message with hover effect
 st.markdown('<div class="centered-message">Thank you for visiting!😊</div>', unsafe_allow_html=True)
